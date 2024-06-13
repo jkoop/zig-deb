@@ -1,0 +1,18 @@
+Package: zig
+Version: VERSION
+Architecture: ARCH
+Maintainer: Zig Software Foundation <https://ziglang.org/zsf>
+Vendor: Joe Koop <https://github.com/jkoop>
+Installed-Size: SIZE
+Depends:
+Conflicts:
+Breaks:
+Replaces:
+Section: devel
+Priority: optional
+Homepage: https://ziglang.org/
+Description: A programming language for robust and efficient software
+ Zig is a general-purpose programming language and toolchain for
+ maintaining robust, optimal and reusable software.
+ .
+ Packaged for Debian by Joe Koop <https://github.com/jkoop>
