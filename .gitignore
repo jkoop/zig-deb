@@ -1,0 +1,5 @@
+*
+!.gitignore
+!zig-deb.php
+!README.md
+!LICENSE

@@ -145,7 +145,7 @@ foreach ($releases as $version => $files) {
             continue;
         }
 
-        $arch = ARCH_MAP[$arch]; // convert to Debiany name
+        $arch = "all";
         $minor_version = substr($version, 0, strrpos($version, "."));
         $package_name = "zig";
         $deb_file_name = $package_name . '_' . $version . '_' . $arch;
@@ -202,6 +202,8 @@ foreach ($releases as $version => $files) {
 
         $complete[] = $deb_file_name;
         file_put_contents(COMPLETE_LIST_PATH, implode("\n", $complete));
+
+        break; // move on to the next release; one package version per release
     }
 }
 
