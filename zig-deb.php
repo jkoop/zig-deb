@@ -6,10 +6,15 @@
  * Value: arch as called by Debian packaging system
  */
 const ARCH_MAP = [
-    // "aarch64" => "arm64",
-    // "i386" => "i386",
+    "aarch64" => "arm64",
+    "armv6kz" => "armel",
+    "armv7a" => "armhf",
+    "i386" => "i386",
+    "powerpc" => "powerpc",
+    "powerpc64le" => "ppc64el",
+    "riscv64" => "riscv64",
+    "x86" => "i386",
     "x86_64" => "amd64",
-    // "x86" => "i386",
 ];
 
 const WGET = "wget --quiet --show-progress -O 'tarball' "; // this must end with a space
