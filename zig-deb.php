@@ -15,6 +15,8 @@ const ARCH_MAP = [
 const WGET = "wget --quiet --show-progress -O 'tarball' "; // this must end with a space
 const COMPLETE_LIST_PATH = "complete.list";
 
+chdir(__DIR__); // so we can be called from anywhere
+
 if (!file_exists(COMPLETE_LIST_PATH)) file_put_contents(COMPLETE_LIST_PATH, "");
 $complete = explode("\n", file_get_contents(COMPLETE_LIST_PATH));
 $complete = array_filter($complete, "strlen");
