@@ -92,8 +92,8 @@ foreach ($releases as $version => $files) {
         Package: $package_name
         Version: $version
         Architecture: $arch
-        Maintainer: Zig Software Foundation <https://ziglang.org/zsf>
-        Vendor: Joe Koop <https://github.com/jkoop>
+        Maintainer: Joe Koop <https://github.com/jkoop>
+        Vendor: Zig Software Foundation <https://ziglang.org/zsf>
         Installed-Size: $installed_size
         Section: devel
         Priority: optional
