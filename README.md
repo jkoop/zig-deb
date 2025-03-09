@@ -6,7 +6,7 @@ I am not endorsed by [the Zig Software Foundation][zsf]. I just like their proje
 
 ## Usage
 
-1. Go to http://packages.joekoop.com and run the two commands at the top of the page.
+1. Go to https://packages.joekoop.com and run the command at the top of the page.
 1. Update your local indecies: `sudo apt update`
 1. Install Zig: `sudo apt install zig`
 
