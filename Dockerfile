@@ -5,5 +5,4 @@ RUN apt update && \
 	echo 'deb [trusted=true] https://packages.joekoop.com/ /' > /etc/apt/sources.list.d/joekoop.list && \
 	apt update && \
 	apt install -y zig=$VERSION && \
-	apt purge -y ca-certificates && \
 	rm /etc/apt/sources.list.d/joekoop.list
