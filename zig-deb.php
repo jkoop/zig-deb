@@ -52,7 +52,7 @@ foreach ($releases as $version => $files) {
         $deb_file_name = $package_name . '_' . $version . '_' . $arch;
 
         if (in_array($deb_file_name, $complete)) {
-            // info("Already packaged: %s", $deb_file_name);
+            info("Already packaged: %s", $deb_file_name);
             continue;
         }
 
