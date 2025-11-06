@@ -102,15 +102,14 @@ foreach ($releases as $version => $files) {
          Zig[1] is a general-purpose programming language and toolchain for
          maintaining robust, optimal and reusable software.
          .
-         See also: the language docs[2], std docs[3], and release notes[4]
+         See also: the language docs[2] and std docs[3]
          .
-         Built by ZSF on $files->date; packaged for Debian by Joe Koop[5] on $package_date
+         Built by ZSF on $files->date; packaged for Debian by Joe Koop[4] on $package_date
          .
          1: https://ziglang.org
          2: $files->docs
          3: $files->stdDocs
-         4: $files->notes
-         5: https://github.com/jkoop
+         4: https://github.com/jkoop/zig-deb
         TXT . "\n");
         chdir(__DIR__);
 

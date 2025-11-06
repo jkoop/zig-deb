@@ -1,6 +1,6 @@
 # zig-deb
 
-Here is the script I use to create `.deb` files from precompiled binaries of [Zig], which I host on [my apt packages server][packagesJK].
+Here is the script I use to create `.deb` files from precompiled binaries of [Zig], which I host on [my pretty bad apt packages server][packagesJK].
 
 I am not endorsed by [the Zig Software Foundation][zsf]. I just like their project, and see that they aren't publishing `.deb` files of their own.
 
